@@ -1,5 +1,12 @@
 # ⚖️ LegalMind AI
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://legal-mind-ashen.vercel.app)
+[![API Docs](https://img.shields.io/badge/API%20Docs-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://legalmind-u5cy.onrender.com/docs)
+[![Multi-Agent](https://img.shields.io/badge/Architecture-LangGraph%20State%20Machine-FF6F00?style=for-the-badge)](https://github.com/langchain-ai/langgraph)
+
+> 🌐 **Live Web App**: [https://legal-mind-ashen.vercel.app](https://legal-mind-ashen.vercel.app)  
+> 📑 **Interactive API Docs**: [https://legalmind-u5cy.onrender.com/docs](https://legalmind-u5cy.onrender.com/docs)
+
 A multi-agent legal intelligence platform powered by LangGraph, LLMs (Groq, OpenAI, Gemini, Ollama), ChromaDB, and SQLite / PostgreSQL.
 
 Upload legal documents, build a private knowledge base, ask questions in plain English, and receive structured AI-powered legal analysis including obligations, risks, recommendations, source citations, and conversation history.
