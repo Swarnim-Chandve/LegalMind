@@ -1,0 +1,11 @@
+chromadb
+pypdf
+python-dotenv
+streamlit
+langgraph
+typing-extensions
+fastapi
+uvicorn
+sqlalchemy
+openai
+python-multipart

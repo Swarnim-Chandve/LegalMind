@@ -1,0 +1,52 @@
+[
+  {
+    "id": "CASE-001",
+    "name": "One-Sided Termination with Disproportionate Penalty",
+    "domain": "Commercial Contracts",
+    "contract_text": "Clause 8.1: Party A may terminate this Agreement immediately at any time without cause and without prior written notice to Party B. In the event Party B terminates this Agreement for any reason, Party B shall immediately pay to Party A a liquidated damages termination fee of $75,000 within ten (10) business days.",
+    "question": "Can Party B terminate early, and what are the primary risks in this clause?",
+    "expected_risk": "High",
+    "key_facts": ["$75,000", "liquidated damages", "Party A may terminate immediately without cause", "lack of reciprocity"],
+    "ground_truth_summary": "The clause is severely one-sided. Party A can terminate at will with zero notice, while Party B faces a massive $75,000 penalty. It lacks reciprocity and exposes Party B to unfair liability."
+  },
+  {
+    "id": "CASE-002",
+    "name": "Overly Broad Worldwide Non-Compete",
+    "domain": "Employment Law",
+    "contract_text": "Section 12: Employee agrees that for a period of five (5) years following termination of employment for any reason, Employee shall not directly or indirectly engage in, perform services for, invest in, or consult with any business that competes with Employer anywhere worldwide.",
+    "question": "Is this non-compete clause standard, and what are the main risks for the employee?",
+    "expected_risk": "High",
+    "key_facts": ["5 years", "worldwide", "unreasonable duration", "unenforceable scope"],
+    "ground_truth_summary": "A 5-year worldwide non-compete is excessively broad in duration and geography, making it likely unenforceable or highly restrictive under most legal jurisdictions."
+  },
+  {
+    "id": "CASE-003",
+    "name": "Unlimited Indemnification & Consequential Damages",
+    "domain": "Software / Vendor Agreements",
+    "contract_text": "Clause 14: Vendor shall defend, indemnify, and hold harmless Customer from and against any and all claims, losses, damages, liabilities, and expenses, including indirect, incidental, and consequential damages, without any financial cap or limitation of liability whatsoever.",
+    "question": "What is Vendor's liability exposure under this indemnification clause?",
+    "expected_risk": "High",
+    "key_facts": ["unlimited", "consequential damages", "no liability cap", "indemnify and hold harmless"],
+    "ground_truth_summary": "Vendor has uncapped liability including consequential damages, which creates existential financial risk for any breach."
+  },
+  {
+    "id": "CASE-004",
+    "name": "GDPR Compliance & Unregulated Cross-Border Transfer",
+    "domain": "Data Privacy & Compliance",
+    "contract_text": "Section 9: Data Processor may freely transfer, process, and store Customer Personal Data in any overseas server location chosen by Data Processor at its discretion, without requiring Standard Contractual Clauses (SCCs) or Customer prior notification.",
+    "question": "Does this data clause comply with GDPR international transfer standards?",
+    "expected_risk": "High",
+    "key_facts": ["GDPR", "Standard Contractual Clauses", "international data transfer", "lack of notice"],
+    "ground_truth_summary": "Transferring personal data overseas without Standard Contractual Clauses (SCCs) or adequacy decisions directly violates GDPR Chapter V."
+  },
+  {
+    "id": "CASE-005",
+    "name": "Standard Mutual 2-Year Non-Disclosure Agreement",
+    "domain": "Confidentiality",
+    "contract_text": "Section 4: Each party agrees to maintain the other party's Confidential Information in strict confidence using at least reasonable care. This obligation shall continue for a period of two (2) years from the date of disclosure. Confidential Information shall not include information that is publicly known or independently developed.",
+    "question": "What are the obligations and risk level in this confidentiality clause?",
+    "expected_risk": "Low",
+    "key_facts": ["mutual", "2 years", "reasonable care", "publicly known exception"],
+    "ground_truth_summary": "Standard, balanced mutual NDA with reasonable 2-year duration, mutual standard of care, and standard customary carveouts."
+  }
+]

@@ -1,0 +1,58 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+env/
+venv/
+.venv/
+legalmind_venv/
+ENV/
+
+# ── Secrets — NEVER commit these ─────────────────────────────────────────────
+.env
+.env.local
+.env.production
+# Keep the template files (no real secrets in them)
+!.env.company
+!.env.example
+
+# ── Database & vector store ───────────────────────────────────────────────────
+chroma_db/
+backend/chroma_db/
+*.sqlite3
+*.sqlite
+*.db
+legalmind.db
+backend/legalmind.db
+
+# ── Uploaded documents ────────────────────────────────────────────────────────
+# Keep the folder structure but not the uploaded files
+backend/data/contracts/*.pdf
+# Keep the sample .txt files
+!backend/data/contracts/*.txt
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ── OS & editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
